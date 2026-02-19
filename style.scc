@@ -1,42 +1,145 @@
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-<meta charset="UTF-8">
-<title>Книжковий Рай</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+margin: 0;
+padding: 0;
+font-family: Roboto, sans-serif;
+color: #333;
+background-color: #eaeaea;
+}
 
-<!-- ===== ГОЛОВНА
-СЕКЦІ
-<img src="img/logo.png" alt="Логотип" class="section-main-logo">
+/* ===== HEADER ===== */
+header {
+background-color: #556b2f;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+}
 
-<h1 class="section-main-title">Книжковий Рай</h1>
-<h2 class="section-main-subtitle"> Відкрий
-для себе наступну чудову книгу
-</h2> <
+.section-main-title {
+font-size: 32px;
+margin: 0;
+text-transform: uppercase;
+}
 
-книги</button>
-</main>
+.section-main-subtitle {
+font-size: 22px;
+margin-top: 10px;
+}
 
-<!-- ===== ІНША СЕКЦІЯ ===== -->
-<section class="second-section">
-<img src="img/library.png" alt="Бібліотека" class="second-section-img"> <
+/* Кнопка */
+.main-button {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 25px;
+background-color: #fff;
+color: #556b2f;
+border-radius: 20px;
+text-decoration: none;
+font-weight: bold;
+cursor: pointer;
+}
 
-div class="second-
-class="section-subtitle">Про нас</h3>
-<h3 class="section-title">Про нашу бібліотеку</h3>
+.main-button:hover {
+background-color: #f0f0f0;
+}
 
-<p class="second-section-text">
-Ласкаво просимо до нашої бібліотеки, де ви знайдете широкий вибір книг
-для будь-якого віку та жанрів.
-</p>
+/* ===== SECOND SECTION ===== */
+.second-section {
+text-align: center;
+padding: 30px 0;
+}
 
-<p class="second-section-name">
-<span>ІВАНЕНКО</span> — засновник Книжкового Раю
-</p>
-</div>
-</section>
+.second-section-title {
+font-size: 28px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
 
-<!-- ===== ТРЕТЯ СЕКЦІЯ ===== -->
-<section class
+.second-section-block {
+width: 500px;
+margin: 0 auto 30px auto;
+padding: 20px;
+border: 1px solid #556b2f;
+border-radius: 20px;
+background-color: #fff;
+}
+
+.second-section-name {
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.second-section-text {
+font-size: 18px;
+color: #666;
+}
+
+/* ===== THIRD SECTION ===== */
+.third-section {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 30px 0;
+gap: 20px;
+}
+
+.third-section-block {
+width: 200px;
+height: 200px;
+background-color: #556b2f;
+color: #fff;
+text-align: center;
+padding-top: 60px;
+box-sizing: border-box;
+}
+
+.book-title {
+font-size: 22px;
+font-weight: bold;
+}
+
+.book-price {
+margin-top: 10px;
+font-size: 20px;
+font-weight: bold;
+color: #8b6b3f;
+}
+
+/* ===== FOOTER ===== */
+footer {
+background-color: #4f4f4f;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+}
+
+.footer-text {
+width: 600px;
+margin: 0 auto 10px auto;
+font-size: 20px;
+}
+
+.footer-form {
+margin-top: 10px;
+}
+
+.form-input {
+width: 400px;
+height: 40px;
+padding: 5px 10px;
+border: 1px solid #fff;
+border-radius: 5px;
+}
+
+.footer-button {
+padding: 10px 20px;
+background-color: #8b6b3f;
+color: #fff;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+}
+
+.footer-button:hover {
+background-color: #a07a45;
+}
